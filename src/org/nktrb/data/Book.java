@@ -1,4 +1,4 @@
-package data;
+package org.nktrb.data;
 
 
 public class Book {
@@ -16,8 +16,6 @@ public class Book {
         this.pages = pages;
         this.publisher = publisher;
         this.isbn = isbn;
-
-
     }
 
     public Book(Book book) {
